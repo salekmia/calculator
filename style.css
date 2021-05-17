@@ -1,0 +1,54 @@
+/*
+Project Name: Calculator
+Description: Very simple project by HTML & CSS
+Version: 1.0
+Author: Abu Salek
+Email: bhairabbari330@gmail.com
+
+*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+}
+.card{
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0.0,0.2);
+  transition: 0.3s;
+  font-size: 0;
+}
+.card:hover{
+  box-shadow: 0px 14px 10px 0px rgba(0, 0, 0, 0.253);
+}
+.cal-head .result{
+  width: 350px;
+  height: 100px;
+  font-size: 32px;
+  text-align: right;
+  font-weight: bold;
+  padding: 0 5px;
+  letter-spacing: 2px;
+}
+.btn {
+  width: 87px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #1f2326;
+  color: #fff;
+  text-transform: uppercase;
+}
+.btn-style{
+  background-color: #5F4BB6;
+}
+.btn:hover {
+  background-color: rgb(196, 192, 255);
+}
